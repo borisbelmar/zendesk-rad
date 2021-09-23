@@ -1,0 +1,22 @@
+{
+  "name": "zendesk-rad",
+  "version": "0.1.0",
+  "description": "Zendesk Request All Data helps to get all data from zendesk entity by saving paginated api calls on single json file",
+  "main": "bin/index.mjs",
+  "scripts": {
+    "start": "node ./bin/index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "zendesk",
+    "cli"
+  ],
+  "bin": {
+    "zendesk-rad": "./bin/index.mjs"
+  },
+  "author": "@borisbelmar <borisbelmarm@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}
